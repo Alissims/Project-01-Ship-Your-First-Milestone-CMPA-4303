@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aunt Mae's Treats — Small-batch jam &amp; banana bread</title>
+<meta name="description" content="Small-batch jam and banana bread, made by hand. Order by Instagram DM.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <span class="wordmark">Aunt Mae's<br>Treats</span>
+    <a class="nav-cta" href="https://instagram.com/auntmaestreats" target="_blank" rel="noopener">DM to order</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow-plain">Homemade, jar by jar</p>
+        <h1>Jam and banana bread,<br>made in small batches.</h1>
+        <p class="hero-sub">No factory lines, no fillers — just fruit, sugar, and time. Every jar and loaf is made to order and ready when you are.</p>
+        <a class="btn-primary" href="https://instagram.com/auntmaestreats" target="_blank" rel="noopener">Order on Instagram &nbsp;@auntmaestreats</a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 280 320" class="hero-jar">
+          <ellipse cx="140" cy="300" rx="80" ry="14" fill="#241A20" opacity="0.12"/>
+          <rect x="70" y="40" width="140" height="230" rx="18" fill="#F3ECE0" stroke="#3E1F3B" stroke-width="4"/>
+          <rect x="70" y="40" width="140" height="230" rx="18" fill="#3E1F3B" opacity="0.92"/>
+          <rect x="70" y="40" width="140" height="230" rx="18" fill="none" stroke="#241A20" stroke-width="4"/>
+          <rect x="92" y="14" width="96" height="40" rx="8" fill="#C98A2B" stroke="#241A20" stroke-width="4"/>
+          <rect x="86" y="6" width="108" height="16" rx="6" fill="#E7A94C" stroke="#241A20" stroke-width="4"/>
+          <rect x="90" y="120" width="100" height="86" rx="4" fill="#F3ECE0" stroke="#241A20" stroke-width="3"/>
+          <line x1="102" y1="145" x2="178" y2="145" stroke="#3E1F3B" stroke-width="3"/>
+          <line x1="102" y1="163" x2="178" y2="163" stroke="#3E1F3B" stroke-width="3"/>
+          <line x1="102" y1="181" x2="150" y2="181" stroke="#3E1F3B" stroke-width="3"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="story">
+    <div class="wrap story-grid">
+      <h2>Why it exists</h2>
+      <div class="story-copy">
+        <p>Aunt Mae's Treats started the way most good food does — in a home kitchen, with recipes worth sharing past the family table. What began as jars for friends and family turned into a small, hands-on business: preserves cooked in small batches, sold directly, one order at a time.</p>
+        <p>There's no storefront yet. Just real ingredients, careful batches, and a jar that tastes like it was made by someone who cares whether you like it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <div class="wrap">
+      <h2>What's available</h2>
+
+      <div class="product-card">
+        <div class="product-info">
+          <h3>Small-batch jam</h3>
+          <p class="product-note">Pick a jar size — the price and jar update to match.</p>
+
+          <div class="size-selector" role="group" aria-label="Choose a jar size">
+            <button class="size-btn is-active" data-size="4" data-price="6" aria-pressed="true">4 oz<span>$6</span></button>
+            <button class="size-btn" data-size="6" data-price="9" aria-pressed="false">6 oz<span>$9</span></button>
+            <button class="size-btn" data-size="8" data-price="12" aria-pressed="false">8 oz<span>$12</span></button>
+          </div>
+
+          <p class="price-line">Selected: <span id="selected-size">4 oz jar</span> — <span id="selected-price">$6</span></p>
+          <a class="btn-secondary" href="https://instagram.com/auntmaestreats" target="_blank" rel="noopener">DM to order this size</a>
+        </div>
+        <div class="product-art" aria-hidden="true">
+          <svg viewBox="0 0 200 240" class="jam-jar" id="jam-jar-svg">
+            <ellipse cx="100" cy="226" rx="60" ry="10" fill="#241A20" opacity="0.12"/>
+            <g id="jar-scale-group">
+              <rect x="40" y="30" width="120" height="180" rx="16" fill="#F3ECE0" stroke="#241A20" stroke-width="4"/>
+              <rect x="40" y="30" width="120" height="180" rx="16" fill="#6B3F63" opacity="0.9"/>
+              <rect x="40" y="30" width="120" height="180" rx="16" fill="none" stroke="#241A20" stroke-width="4"/>
+              <rect x="58" y="8" width="84" height="30" rx="6" fill="#C98A2B" stroke="#241A20" stroke-width="4"/>
+              <rect x="54" y="2" width="92" height="12" rx="5" fill="#E7A94C" stroke="#241A20" stroke-width="4"/>
+              <rect x="60" y="90" width="80" height="60" rx="4" fill="#F3ECE0" stroke="#241A20" stroke-width="3"/>
+              <text x="100" y="115" text-anchor="middle" font-family="'Roboto Slab', serif" font-size="12" fill="#3E1F3B" id="jar-label-size">4 OZ</text>
+              <line x1="72" y1="128" x2="128" y2="128" stroke="#3E1F3B" stroke-width="2"/>
+              <line x1="72" y1="138" x2="128" y2="138" stroke="#3E1F3B" stroke-width="2"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="product-card product-card--simple">
+        <div class="product-info">
+          <h3>Banana bread</h3>
+          <p class="product-note">Whole loaf, baked to order.</p>
+          <p class="price-line"><span id="bread-price">$6</span> per loaf</p>
+          <a class="btn-secondary" href="https://instagram.com/auntmaestreats" target="_blank" rel="noopener">DM to order a loaf</a>
+        </div>
+        <div class="product-art" aria-hidden="true">
+          <svg viewBox="0 0 200 140" class="bread-loaf">
+            <ellipse cx="100" cy="128" rx="78" ry="9" fill="#241A20" opacity="0.12"/>
+            <path d="M25 110 Q25 40 100 30 Q175 40 175 110 Z" fill="#C98A2B" stroke="#241A20" stroke-width="4"/>
+            <path d="M40 108 Q40 55 100 46 Q160 55 160 108" fill="none" stroke="#3E1F3B" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 14"/>
+            <path d="M55 108 L60 60 M85 108 L88 52 M115 108 L112 52 M145 108 L140 60" stroke="#3E1F3B" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+          </svg>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="order">
+    <div class="wrap order-inner">
+      <h2>How to order</h2>
+      <p>There's no online checkout yet — every order goes through a real conversation. Send a DM with what you'd like and where you're picking up or having it delivered, and we'll sort out the rest.</p>
+      <a class="btn-primary" href="https://instagram.com/auntmaestreats" target="_blank" rel="noopener">Message @auntmaestreats on Instagram</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span>Aunt Mae's Treats</span>
+    <a href="https://instagram.com/auntmaestreats" target="_blank" rel="noopener">@auntmaestreats</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
